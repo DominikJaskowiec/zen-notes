@@ -20,7 +20,7 @@ const loadMarkdown = async (note) => {
 
 // Function to render markdown as HTML
 const renderMarkdown = (markdown) => {
-  return marked(markdown);
+  return marked(markdown);  // This should work correctly now
 };
 
 // Function to render the list of notes
