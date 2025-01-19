@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Notes</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My Markdown Notes</h1>
+    <input type="text" id="search" placeholder="Search notes...">
+  </header>
+
+  <main>
+    <div id="notes-list">
+      <!-- Notes will be dynamically inserted here -->
+    </div>
+
+    <div id="markdown-preview">
+      <!-- Markdown content will be displayed here -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
